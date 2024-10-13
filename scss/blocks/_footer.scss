@@ -1,0 +1,43 @@
+.site-footer{
+    background-color: #002529;
+}
+.footer-content {
+    width: 730px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+.footer-left-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;    
+}
+.footer-left-top {
+    color: white;
+}
+.footer-left-bottom {
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+.footer-left-right {
+    color: #FFFFFF;
+    
+}
+.footer-list{
+    font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+transition: color 0.4s;
+}
+.footer-list:hover{
+    color: #F67E7E;
+}

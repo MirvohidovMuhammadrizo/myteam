@@ -1,0 +1,59 @@
+.site-logo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 73px 0 ;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.header-item {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    transition: color 0.3s;
+}
+.header-item:hover{
+    color: #F67E7E;
+}
+.contact {
+    max-width: 153px;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 9px 33px;
+    transition: all 0.3s;
+}
+
+.contact:hover{
+    background-color: white;
+}
+.contact a:hover{
+    color: #014E56;
+}
+.contact a{
+    color: white;
+font-size: 15px;
+font-weight: 600;
+line-height: 28px;
+transition: all 0.3s;
+}
+
+@media (max-width: 800px){
+    .site-logo{
+        gap: 50px;
+    }
+    .header{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 64px 0;
+        gap: 220px;
+    }
+}
